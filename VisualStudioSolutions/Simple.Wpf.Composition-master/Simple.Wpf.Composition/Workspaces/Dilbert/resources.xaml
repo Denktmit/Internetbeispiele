@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    mc:Ignorable="d"
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                    xmlns:vm="clr-namespace:Simple.Wpf.Composition.Workspaces.Dilbert">
+
+    <vm:DilbertFilePathConverter x:Key="DilbertFilePathConverter" />
+
+    <DataTemplate DataType="{x:Type vm:DilbertViewModel}">
+
+        <Grid HorizontalAlignment="Stretch"
+              VerticalAlignment="Stretch">
+
+            <Border Background="LawnGreen"
+                    VerticalAlignment="Stretch"
+                    Padding="5">
+                <ContentPresenter Width="500"
+                                  Height="200"
+                                  Content="{Binding Path=FilePath, Converter={StaticResource DilbertFilePathConverter}}" />
+            </Border>
+
+        </Grid>
+
+    </DataTemplate>
+
+</ResourceDictionary>

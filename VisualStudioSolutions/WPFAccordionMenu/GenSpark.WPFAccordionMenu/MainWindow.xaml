@@ -1,0 +1,15 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:GenSpark.WPFAccordionMenu"
+        x:Class="GenSpark.WPFAccordionMenu.MainWindow"
+        Title="MainWindow"
+        Height="533"
+        Width="973.3">
+    <Grid>
+        <local:MenuControl HorizontalAlignment="Left" Margin="10,26,0,10" Height="Auto"/>
+        <Menu Height="21" VerticalAlignment="Top" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}">
+            <MenuItem Header="File"/>
+        </Menu>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Margin="10,26,0,10" Width="202"/>
+    </Grid>
+</Window>

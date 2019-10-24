@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFUtilsTest", "WPFUtilsTest\WPFUtilsTest.csproj", "{EF3C2514-6CA7-4D91-8379-D033EDEA31F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFUtils", "WPFUtils\WPFUtils.csproj", "{EB097B3F-C41B-43F7-A6CD-8B29E309B877}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF3C2514-6CA7-4D91-8379-D033EDEA31F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3C2514-6CA7-4D91-8379-D033EDEA31F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3C2514-6CA7-4D91-8379-D033EDEA31F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3C2514-6CA7-4D91-8379-D033EDEA31F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB097B3F-C41B-43F7-A6CD-8B29E309B877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB097B3F-C41B-43F7-A6CD-8B29E309B877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB097B3F-C41B-43F7-A6CD-8B29E309B877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB097B3F-C41B-43F7-A6CD-8B29E309B877}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBCA247F-837D-437A-882C-ECC11F5D25CD}
+	EndGlobalSection
+EndGlobal

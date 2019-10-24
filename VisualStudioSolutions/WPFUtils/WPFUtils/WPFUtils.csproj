@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EB097B3F-C41B-43F7-A6CD-8B29E309B877}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WPFUtils</RootNamespace>
+    <AssemblyName>WPFUtils</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LeveledTree\LeveledTree.xaml.cs">
+      <DependentUpon>LeveledTree.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LeveledTree\TreeContentViewModel.cs" />
+    <Compile Include="LeveledTree\TreeLevel1ViewModel.cs" />
+    <Compile Include="LeveledTree\TreeLevel2ViewModel.cs" />
+    <Compile Include="LeveledTree\TreeLevel3ViewModel.cs" />
+    <Compile Include="LeveledTree\TreeLevel4ViewModel.cs" />
+    <Compile Include="LeveledTree\TreeLevel5ViewModel.cs" />
+    <Compile Include="LeveledTree\TreeLevelXViewModel.cs" />
+    <Compile Include="LeveledTree\TreeObject.cs" />
+    <Compile Include="LeveledTree\TreeViewItemViewModel.cs" />
+    <Compile Include="ModelBase.cs" />
+    <Compile Include="NavigationAccordion\NavigationAccordion.xaml.cs">
+      <DependentUpon>NavigationAccordion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationAccordion\NavigationAccordionViewModel.cs" />
+    <Compile Include="NavigationAccordion\NavigationItem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TreeOnDemand\TreeContentViewModel.cs" />
+    <Compile Include="TreeOnDemand\TreeObject.cs" />
+    <Compile Include="TreeOnDemand\TreeObjectViewModel.cs" />
+    <Compile Include="TreeOnDemand\TreeOnDemand.xaml.cs">
+      <DependentUpon>TreeOnDemand.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TreeOnDemand\TreeViewItemViewModel.cs" />
+    <Compile Include="TreeViewWithSearch\TreeObject.cs" />
+    <Compile Include="TreeViewWithSearch\TreeObjectViewModel.cs" />
+    <Compile Include="TreeViewWithSearch\TreeViewModel.cs" />
+    <Compile Include="TreeViewWithSearch\TreeWithSearch.xaml.cs">
+      <DependentUpon>TreeWithSearch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WPFCommand.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="LeveledTree\LeveledTree.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NavigationAccordion\NavigationAccordion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TreeOnDemand\TreeOnDemand.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TreeViewWithSearch\TreeWithSearch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="TreeOnDemand\Images\blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="TreeOnDemand\Images\green.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="TreeOnDemand\Images\orange.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="NavigationAccordion\Images\expand.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="NavigationAccordion\Images\collapse.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

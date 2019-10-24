@@ -1,0 +1,124 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GenSpark.WPFAccordionMenu" x:Class="GenSpark.WPFAccordionMenu.MenuControl" 
+             mc:Ignorable="d" Height="459" Width="202">
+    <Grid>
+            <StackPanel Margin="1,1,1,1">
+                <StackPanel Name="Panel1" Height="26">
+                <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Menu Header 3" Foreground="White" FontWeight="Bold">
+                    <Label.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF80CEF3" Offset="0.01"/>
+                            <GradientStop Color="#FF5588A0" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Label.Background>
+                </Label>
+                <Label Content="Sub Menu Item" HorizontalContentAlignment="Center" Background="{x:Null}"/>
+                <Rectangle Fill="#FFAAAAAA" Height="1" Stroke="#FFAAAAAA"/>
+                <Label Content="Sub Menu Item" HorizontalContentAlignment="Center" Background="{x:Null}"/>
+                <Rectangle Fill="#FFC3C3C3" Height="1" Stroke="#FFAAAAAA"/>
+                <Label Content="Sub Menu Item" HorizontalContentAlignment="Center" Background="{x:Null}"/>
+                <Rectangle Fill="#FFC3C3C3" Height="1" Stroke="#FFAAAAAA"/>
+                <StackPanel.Triggers>
+                    <EventTrigger RoutedEvent="UIElement.MouseLeftButtonUp">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="Panel1" Storyboard.TargetProperty="Height" To="379" Duration="0:0:0.50" AccelerationRatio="0.6" DecelerationRatio="0.4" />
+                                <DoubleAnimation Storyboard.TargetName="Panel2" Storyboard.TargetProperty="Height" To="26" Duration="0:0:0.50" AccelerationRatio="0.6" DecelerationRatio="0.4" />
+                                <DoubleAnimation Storyboard.TargetName="Panel3" Storyboard.TargetProperty="Height" To="26" Duration="0:0:0.50" AccelerationRatio="0.6" DecelerationRatio="0.4" />
+                                <DoubleAnimation Storyboard.TargetName="Panel4" Storyboard.TargetProperty="Height" To="26" Duration="0:0:0.50" AccelerationRatio="0.6" DecelerationRatio="0.4" />
+                            </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </StackPanel.Triggers>
+                </StackPanel>
+                <StackPanel Name="Panel2" Height="26">
+                <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Menu Header 3" Foreground="White" FontWeight="Bold">
+                    <Label.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF80CEF3" Offset="0.01"/>
+                            <GradientStop Color="#FF5588A0" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Label.Background>
+                </Label>                
+                <Label Content="Sub Menu Item" HorizontalContentAlignment="Center" Background="{x:Null}"/>
+                <Rectangle Fill="#FFAAAAAA" Height="1" Stroke="#FFAAAAAA"/>
+                <Label Content="Sub Menu Item" HorizontalContentAlignment="Center" Background="{x:Null}"/>
+                <Rectangle Fill="#FFC3C3C3" Height="1" Stroke="#FFAAAAAA"/>
+                <Label Content="Sub Menu Item" HorizontalContentAlignment="Center" Background="{x:Null}"/>
+                <Rectangle Fill="#FFC3C3C3" Height="1" Stroke="#FFAAAAAA"/>
+                <StackPanel.Triggers>
+                    <EventTrigger RoutedEvent="UIElement.MouseLeftButtonUp">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="Panel1" Storyboard.TargetProperty="Height" To="26" Duration="0:0:0.50" AccelerationRatio="0.6" DecelerationRatio="0.4" />
+                                <DoubleAnimation Storyboard.TargetName="Panel2" Storyboard.TargetProperty="Height" To="379" Duration="0:0:0.50" AccelerationRatio="0.6" DecelerationRatio="0.4" />
+                                <DoubleAnimation Storyboard.TargetName="Panel3" Storyboard.TargetProperty="Height" To="26" Duration="0:0:0.50" AccelerationRatio="0.6" DecelerationRatio="0.4" />
+                                <DoubleAnimation Storyboard.TargetName="Panel4" Storyboard.TargetProperty="Height" To="26" Duration="0:0:0.50" AccelerationRatio="0.6" DecelerationRatio="0.4" />
+                            </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </StackPanel.Triggers>
+                </StackPanel>
+                <StackPanel Name="Panel3" Height="26">
+                <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Menu Header 3" Foreground="White" FontWeight="Bold">
+                    <Label.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF80CEF3" Offset="0.01"/>
+                            <GradientStop Color="#FF5588A0" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Label.Background>
+                </Label>
+                <Label Content="Sub Menu Item" HorizontalContentAlignment="Center" Background="{x:Null}"/>
+                <Rectangle Fill="#FFAAAAAA" Height="1" Stroke="#FFAAAAAA"/>
+                <Label Content="Sub Menu Item" HorizontalContentAlignment="Center" Background="{x:Null}"/>
+                <Rectangle Fill="#FFC3C3C3" Height="1" Stroke="#FFAAAAAA"/>
+                <Label Content="Sub Menu Item" HorizontalContentAlignment="Center" Background="{x:Null}"/>
+                <Rectangle Fill="#FFC3C3C3" Height="1" Stroke="#FFAAAAAA"/>
+                <StackPanel.Triggers>
+                    <EventTrigger RoutedEvent="UIElement.MouseLeftButtonUp">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="Panel1" Storyboard.TargetProperty="Height" To="26" Duration="0:0:0.50" AccelerationRatio="0.6" DecelerationRatio="0.4" />
+                                <DoubleAnimation Storyboard.TargetName="Panel2" Storyboard.TargetProperty="Height" To="26" Duration="0:0:0.50" AccelerationRatio="0.6" DecelerationRatio="0.4" />
+                                <DoubleAnimation Storyboard.TargetName="Panel3" Storyboard.TargetProperty="Height" To="379" Duration="0:0:0.50" AccelerationRatio="0.6" DecelerationRatio="0.4" />
+                                <DoubleAnimation Storyboard.TargetName="Panel4" Storyboard.TargetProperty="Height" To="26" Duration="0:0:0.50" AccelerationRatio="0.6" DecelerationRatio="0.4" />
+                            </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </StackPanel.Triggers>
+                </StackPanel>
+            <StackPanel x:Name="Panel4" Height="379">
+                <StackPanel.Triggers>
+                    <EventTrigger RoutedEvent="UIElement.MouseLeftButtonUp">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="Panel1" Storyboard.TargetProperty="Height" To="26" Duration="0:0:0.50" AccelerationRatio="0.6" DecelerationRatio="0.4" />
+                                <DoubleAnimation Storyboard.TargetName="Panel2" Storyboard.TargetProperty="Height" To="26" Duration="0:0:0.50" AccelerationRatio="0.6" DecelerationRatio="0.4" />
+                                <DoubleAnimation Storyboard.TargetName="Panel3" Storyboard.TargetProperty="Height" To="26" Duration="0:0:0.50" AccelerationRatio="0.6" DecelerationRatio="0.4" />
+                                <DoubleAnimation Storyboard.TargetName="Panel4" Storyboard.TargetProperty="Height" To="379" Duration="0:0:0.50" AccelerationRatio="0.6" DecelerationRatio="0.4" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </StackPanel.Triggers>
+                <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Menu Header 4" Foreground="White" FontWeight="Bold">
+                    <Label.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF80CEF3" Offset="0.01"/>
+                            <GradientStop Color="#FF5588A0" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Label.Background>
+                </Label>
+                <Label Content="Sub Menu Item" HorizontalContentAlignment="Center" Background="{x:Null}"/>
+                <Rectangle Fill="#FFAAAAAA" Height="1" Stroke="#FFAAAAAA"/>
+                <Label Content="Sub Menu Item" HorizontalContentAlignment="Center" Background="{x:Null}"/>
+                <Rectangle Fill="#FFC3C3C3" Height="1" Stroke="#FFAAAAAA"/>
+                <Label Content="Sub Menu Item" HorizontalContentAlignment="Center" Background="{x:Null}"/>
+                <Rectangle Fill="#FFC3C3C3" Height="1" Stroke="#FFAAAAAA"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

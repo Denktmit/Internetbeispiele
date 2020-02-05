@@ -1,0 +1,11 @@
+C:\Development\Projects\FtpDataProvider\FtpDataProvider\bin\Debug\FtpDataProvider.dll
+C:\Development\Projects\FtpDataProvider\FtpDataProvider\bin\Debug\FtpDataProvider.pdb
+C:\Development\Projects\FtpDataProvider\FtpDataProvider\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Projects\FtpDataProvider\FtpDataProvider\obj\Debug\FtpDataProvider.dll
+C:\Development\Projects\FtpDataProvider\FtpDataProvider\obj\Debug\FtpDataProvider.pdb
+D:\Git\Internetbeispiele\VisualStudioSolutions\FtpDataProvider\FtpDataProvider\bin\Debug\FtpDataProvider.dll
+D:\Git\Internetbeispiele\VisualStudioSolutions\FtpDataProvider\FtpDataProvider\bin\Debug\FtpDataProvider.pdb
+D:\Git\Internetbeispiele\VisualStudioSolutions\FtpDataProvider\FtpDataProvider\obj\Debug\FtpDataProvider.csprojAssemblyReference.cache
+D:\Git\Internetbeispiele\VisualStudioSolutions\FtpDataProvider\FtpDataProvider\obj\Debug\FtpDataProvider.csproj.CoreCompileInputs.cache
+D:\Git\Internetbeispiele\VisualStudioSolutions\FtpDataProvider\FtpDataProvider\obj\Debug\FtpDataProvider.dll
+D:\Git\Internetbeispiele\VisualStudioSolutions\FtpDataProvider\FtpDataProvider\obj\Debug\FtpDataProvider.pdb
